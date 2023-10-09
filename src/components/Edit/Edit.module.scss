@@ -1,0 +1,14 @@
+.editHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  .itemWrap {
+    display: block;
+  }
+}
+
+.apiMethods {
+  padding: 0 6px;
+}

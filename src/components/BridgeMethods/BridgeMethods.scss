@@ -1,0 +1,102 @@
+.bridgeMethods {
+    width: 320px;
+
+    .searchWrap {
+        position: relative;
+
+        .inputSearch {
+            display: block;
+            width: 100%;
+            padding: 8px 10px;
+            outline: none;
+            box-sizing: border-box;
+            border: 0;
+            border-bottom: 1px solid #383838;
+            color: #fff;
+            background: #292a2d;
+        }
+
+        .iconSearch {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+        }
+    }
+
+    .itemsWrap {
+        overflow: auto;
+        font-family: "Source Code Pro", monospace;
+
+        .itemWrap {
+            position: relative;
+            // display: flex;
+            // justify-content: space-between;
+            // align-items: center;
+            margin: 8px 8px;
+            padding: 18px 10px 7px 10px;
+            font-size: 13px;
+            cursor: pointer;
+            border-radius: 6px;
+            border: 1px solid #383838;
+            background-color: #26272a;
+
+            &:hover {
+                border: 1px solid #414141;
+                background-color: #2a2b2e;
+            }
+
+            .iconOpen {
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                top: 5px;
+                right: 5px;
+                width: 32px;
+                height: 32px;
+                border-radius: 6px;
+                border: 1px solid #414141;
+                color: #7e7e7e;
+                background-color: #222326;
+
+                &:hover {
+                    background-color: #19191b;
+                }
+            }
+
+            .platformsWrap {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                left: 10px;
+                top: -5px;
+
+                .platformItem {
+                    margin-left: 4px;
+                    padding: 2px 6px;
+                    font-size: 11px;
+                    border-radius: 6px;
+                    border: 1px solid #383838;
+                    color: rgb(193 193 193 / 50%);
+                    background-color: #26272a;
+                }
+            }
+
+            .sendItem {
+                margin: 7px 0;
+                padding: 6px 10px;
+                word-break: break-word;
+                cursor: pointer;
+                border-radius: 6px;
+                border: 1px solid #383838;
+                color: #7e7e7e;
+                background-color: #222326;
+
+                &:hover {
+                    background-color: #19191b;
+                }
+            }
+        }
+    }
+}

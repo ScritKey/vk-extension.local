@@ -1,0 +1,77 @@
+.headerHistory {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .buttonClear {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 40px;
+        height: 30px;
+        cursor: pointer;
+    }
+}
+
+.historyActions {
+    min-width: 290px;
+
+    .itemsWrap {
+
+        .item {
+            margin: 8px 8px;
+            padding: 7px 10px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 6px;
+            border: 1px solid #383838;
+            background-color: #26272a;
+
+            &:hover {
+                border: 1px solid #414141;
+                background-color: #2a2b2e;
+            }
+
+            &.isActive {
+                border: 1px solid #485164;
+                background-color: #2e3034;
+            }
+
+            &.imSender {
+                color: rgb(116, 54, 216);
+            }
+
+            .headerItem {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .typeWrap {
+                    font-size: 11px;
+
+                    &.isError {
+                        color: rgb(216, 54, 54);
+                    }
+                }
+            }
+
+            .moreItemsTitle {
+                padding: 7px 5px 0 5px;
+                font-size: 13px;
+                color: #b5b5b5;
+            }
+
+            .moreItemsWrap {
+                .moreItem {
+                    margin: 2px 0;
+                    padding: 4px 10px;
+                    border-radius: 6px;
+                    border: 1px solid #383838;
+                    font-size: 13px;
+                    color: #7e7e7e;
+                    background-color: #222326;
+                }
+            }
+        }
+    }
+}

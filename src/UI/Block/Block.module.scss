@@ -1,0 +1,46 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-right: 1px solid #424242;
+
+    &:last-child {
+        border: none;
+    }
+
+    .headerBlock {
+        display: flex;
+        align-items: center;
+        min-height: 30px;
+        padding: 0 16px;
+        border-bottom: 1px solid #424242;
+        background-color: #292a2d;
+
+        .buttonHeader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 30px;
+            cursor: pointer;
+
+            &:hover {
+                background: #3c3c3c;
+            }
+        }
+    }
+
+    .children {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .footerBlock {
+        display: flex;
+        align-items: center;
+        min-height: 30px;
+        border-top: 1px solid #424242;
+        background-color: #292a2d;
+    }
+}

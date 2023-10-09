@@ -1,0 +1,13 @@
+.modalContent {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    min-width: 266px;
+    min-height: 200px;
+    margin: 12px;
+    padding: 12px;
+    z-index: 2;
+    border-radius: 12px;
+    box-shadow: 0 0 3px 0px #000000;
+    background-color: #434343;
+}

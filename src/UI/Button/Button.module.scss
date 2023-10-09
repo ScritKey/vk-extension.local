@@ -1,0 +1,32 @@
+.button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 36px;
+    padding: 7px 10px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #3c3c3c;
+    background-color: #dbdbdb;
+
+    &.mode-primary {
+        background-color: #dbdbdb;
+    }
+
+    &.mode-secondary {
+        color: #c1c1c1;
+        background-color: #666666;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

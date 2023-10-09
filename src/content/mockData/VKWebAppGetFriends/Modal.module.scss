@@ -1,0 +1,15 @@
+.wrap {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-width: 266px;
+  min-height: 200px;
+  max-height: 70vh;
+  margin: 12px;
+  padding: 12px;
+  overflow: auto;
+  z-index: 2;
+  border-radius: 12px;
+  box-shadow: 0 0 3px 0px #000000;
+  background-color: #434343;
+}

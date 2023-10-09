@@ -1,0 +1,44 @@
+.footer-root {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 34px;
+    border-top: 1px solid rgb(66, 66, 66);
+    background-color: #292a2d;
+
+    .footerBlock {
+        flex: 1 0;
+    }
+
+    .sensorsWrap {
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+
+        .item {
+            display: flex;
+            align-items: center;
+            margin-right: 5px;
+            padding: 5px 8px;
+            border-radius: 5px;
+            border: 1px solid #575757;
+            background: #161718;
+
+            &.active {
+                border: 1px solid #2797e7;
+            }
+
+            .circle {
+                width: 8px;
+                height: 8px;
+                margin-left: 7px;
+                border-radius: 50%;
+                background: #6d6d6d;
+
+                &.active {
+                    background: #0fe513;
+                }
+            }
+        }
+    }
+}

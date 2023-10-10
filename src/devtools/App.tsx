@@ -9,20 +9,11 @@ import Edit from '../components/Edit/Edit';
 import Lifecycle from '../components/Lifecycle/Lifecycle';
 import { useAppDispatch, useAppSelector } from '../store/hook';
 import { listEventsUpdate } from '../store/listEvents/listEventsSlice';
-import { historyEventsAdd, historyEventsUpdate } from '../store/historyEvents/historyEventsSlice';
-import { Button, Modal, ModalCard, ModalPortal } from '../UI';
-import VKWebAppShowStoryBox from '../content/mockData/VKWebAppShowStoryBox/VKWebAppShowStoryBox';
+import { historyEventsAdd } from '../store/historyEvents/historyEventsSlice';
 import LaunchParams from '../components/LaunchParams/LaunchParams';
-import VKWebAppGetFriends from "../content/mockData/VKWebAppGetFriends/VKWebAppGetFriends";
-import VKWebAppShowImages from "../content/mockData/VKWebAppShowImages/VKWebAppShowImages";
-import VKWebAppOpenContacts from "../content/mockData/VKWebAppOpenContacts/VKWebAppOpenContacts";
 import { Device } from "../components/Device/Device";
-import VKWebAppJoinGroup from "../content/mockData/VKWebAppJoinGroup/VKWebAppJoinGroup";
-import VKWebAppShowSlidesSheet from "../content/mockData/VKWebAppShowSlidesSheet/VKWebAppShowSlidesSheet";
-import VKWebAppShowOrderBox from "../content/mockData/VKWebAppShowOrderBox/VKWebAppShowOrderBox";
 import { Sensors } from "../components/Sensors/Sensors";
 import { addSensor, removeSensor, updateDevice } from "../store/sys/sysSlice";
-import VKWebAppShowSubscriptionBox from "../content/mockData/VKWebAppShowSubscriptionBox/VKWebAppShowSubscriptionBox";
 
 function App() {
     const route = useAppSelector(state => state.sys.route);

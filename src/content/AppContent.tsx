@@ -5,7 +5,6 @@ import { DeviceAndroid } from "./components/Device/DeviceAndroid";
 import { IDevice } from "../store/sys/sysSlice";
 
 const AppContent = () => {
-    const [s, setS] = useState(true);
     const [d, setD] = useState<any>({});
 
     const [subComponent, setSubComponent] = useState<any>();

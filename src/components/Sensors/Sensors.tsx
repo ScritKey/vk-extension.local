@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Block } from "../../UI";
-import { AiOutlineSend } from "react-icons/ai";
 import './Sensors.scss';
 
 import VKWebAppAccelerometerStart from './VKWebAppAccelerometerStart';
@@ -18,22 +17,22 @@ const arrSensors = [
 export const Sensors = () => {
     const [activeIdx, setActiveIdx] = useState(0);
 
-    function sendSafeInset() {
-        chrome.tabs.sendMessage(
-            chrome.devtools.inspectedWindow.tabId,
-            {
-                typeMessage: 'setSafeInset'
-            }
-        );
-    }
+    // function sendSafeInset() {
+    //     chrome.tabs.sendMessage(
+    //         chrome.devtools.inspectedWindow.tabId,
+    //         {
+    //             typeMessage: 'setSafeInset'
+    //         }
+    //     );
+    // }
 
     function clickItem(idx: number) {
         setActiveIdx(idx);
     }
 
-    function clickSend(event: React.MouseEvent<HTMLDivElement, MouseEvent>, idx: number) {
-
-    }
+    // function clickSend(event: React.MouseEvent<HTMLDivElement, MouseEvent>, idx: number) {
+    //
+    // }
 
     function getComponent() {
         switch (arrSensors[activeIdx]['eventName']) {

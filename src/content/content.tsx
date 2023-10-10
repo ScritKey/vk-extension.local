@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import AppContent from './AppContent';
-import { AppearanceProvider, ConfigProvider } from "@vkontakte/vkui";
 
 // import "@vkontakte/vkui/dist/vkui.css";
 

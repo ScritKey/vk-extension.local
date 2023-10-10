@@ -155,56 +155,6 @@ function App() {
         <div className="wrapper">
             <Header />
 
-            {/* <Lifecycle /> */}
-
-            {/* <LaunchParams/> */}
-
-            {/* <ModalPortal>
-                <Modal>
-                    <Button>
-                        sdsda
-                    </Button>
-                </Modal>
-            </ModalPortal> */}
-
-            {/* <ModalPortal>
-                <ModalCard buttonsWrap={
-                    <>
-                        <Button style={{ marginRight: 10 }} mode="secondary">
-                            Запретить
-                        </Button>
-                        <Button>
-                            Добавить
-                        </Button>
-                    </>
-                }
-                    logo={true}
-                    subTitle="Приложение предлагает вам добавить его в избранное"
-                >
-                    Добавить приложение в избранное?
-                </ModalCard>
-            </ModalPortal> */}
-
-            {/*<ModalPortal loading={true}>*/}
-
-            {/*</ModalPortal>*/}
-
-             {/*<VKWebAppShowStoryBox/>*/}
-
-            {/*<VKWebAppGetFriends/>*/}
-
-            {/*<VKWebAppShowImages/>*/}
-
-            {/*<VKWebAppOpenContacts/>*/}
-
-            {/*<VKWebAppJoinGroup/>*/}
-
-            {/*<VKWebAppShowSlidesSheet/>*/}
-
-            {/*<VKWebAppShowOrderBox/>*/}
-
-            {/*<VKWebAppShowSubscriptionBox/>*/}
-
             {getComponent()}
 
             <Footer />

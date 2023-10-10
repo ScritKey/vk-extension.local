@@ -1,5 +1,7 @@
 VK extension расширение для Chrome. Позволяет эмулировать получение данных
 
+<img src="https://github.com/ScritKey/vk-extension.local/blob/master/1.PNG" alt="" title="">
+
 Установка:
 1. Скачать архив с расширением, распаковать архив
 2. В Chrome перейти Расширения->Управления расширениями

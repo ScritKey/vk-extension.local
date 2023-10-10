@@ -1,1 +1,0 @@
-chrome.devtools.panels.create("VKMock","","index.html",(function(e){}));

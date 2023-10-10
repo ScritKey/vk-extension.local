@@ -19,7 +19,7 @@ const config = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
-  devtool: undefined, // isProduction? undefined : 'inline-source-map',
+  devtool: 'inline-source-map', // isProduction? undefined : 'inline-source-map',
   devServer: {
     hot: true
   },

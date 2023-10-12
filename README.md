@@ -1,5 +1,8 @@
 VK extension расширение для Chrome. Позволяет эмулировать получение данных
 
+Касательно кода не пишите, сам знаю как печально все выглядит. Все сделано топорно, без оптимизаций, кучу раз идет перерендер. 
+Мне нужно было всего несколько методов в начале, поэтому быстро написал обертку для них. Со временем методы добавлялись все больше, как итог добавил все методы из bridge
+
 <img src="https://github.com/ScritKey/vk-extension.local/blob/master/1.PNG" alt="" title="">
 
 Установка:
@@ -27,6 +30,7 @@ if(process.env.NODE_ENV === 'development') {
 PHP:
 ```
 header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: Origin, Content-Type, X-Requested-With, Access-Control-Allow-Headers");
 header("Access-Control-Allow-Methods: POST, GET");
 ```
 Это связано с тем, что запрос на сервер идет из js
